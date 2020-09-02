@@ -1,0 +1,7 @@
+include ':app'
+rootProject.name = "mvp"
+
+include ':mvplib'
+include ':libbanner'
+include ':mvplib:libMvpAnotation'
+include ':mvplib:libMvpAnotation:compiler'
